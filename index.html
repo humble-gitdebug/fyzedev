@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>FyzeDev | Разработчик и создатель контента</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Фоновые анимации -->
+<div class="animated-bg"></div>
+<div class="gradient-orb orb1"></div>
+<div class="gradient-orb orb2"></div>
+<div class="gradient-orb orb3"></div>
+<canvas id="particleCanvas"></canvas>
+
+<!-- Кнопка переключения темы -->
+<div class="theme-toggle" id="themeToggle">
+    <i class="fas fa-sun"></i> 
+    <span>Светлая тема</span>
+</div>
+
+<main class="container">
+    <!-- Hero секция (загружается из JSON) -->
+    <div class="hero" id="heroSection">
+        <div class="badge" id="heroBadge">
+            <i class="fas fa-cube"></i> <span id="badgeText">Загрузка...</span>
+        </div>
+        
+        <div class="code-block" id="codeBlock">
+            <span style="color:#c792ea;">fyzedev</span><span style="color:#ff5874;">()</span> { <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#82aaff;">printf</span><span style="color:#f6f8fa;">(</span><span style="color:#c3e88d;" id="codeText">"загрузка..."</span><span style="color:#f6f8fa;">);</span><br>
+            }
+        </div>
+        
+        <h1 id="siteTitle">FyzeDev</h1>
+        
+        <div class="subhead" id="subheadText">
+            <i class="fas fa-laptop-code"></i> <span>Загрузка...</span>
+        </div>
+        
+        <div class="description" id="descriptionText">
+            Загрузка контента...
+        </div>
+        
+        <div class="social-grid" id="socialLinks">
+            <!-- Социальные ссылки будут загружены из JSON -->
+        </div>
+    </div>
+
+    <!-- Секция навыков -->
+    <div class="skills-section" id="skillsSection">
+        <div class="section-title">
+            <i class="fas fa-chart-line"></i> 
+            <span>Ключевые навыки</span>
+        </div>
+        <div class="skills-grid" id="skillsGrid">
+            <!-- Карточки навыков загружаются из JSON -->
+        </div>
+    </div>
+
+    <!-- Дополнительная секция -->
+    <div class="extra-section" id="extraSection">
+        <div class="section-title">
+            <i class="fas fa-rocket"></i> 
+            <span>Что ещё я создаю</span>
+        </div>
+        <div class="tech-grid" id="techGrid">
+            <!-- Технологии загружаются из JSON -->
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p id="footerText">© 2025 FyzeDev — загрузка...</p>
+        <p><i class="fas fa-sync-alt"></i> фон с частицами + плавающие сферы</p>
+    </footer>
+</main>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+</body>
+</html>
