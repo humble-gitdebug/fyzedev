@@ -1,0 +1,90 @@
+{
+    "hero": {
+        "badge": "full-stack · создатель контента",
+        "codeText": "\"анимации + код + продукт\"",
+        "title": "FyzeDev",
+        "subhead": "Software developer · YouTube creator",
+        "description": "Специализируюсь на создании Telegram ботов, интерактивных сайтов и сложной автоматизации. Превращаю идеи в надёжные цифровые продукты.",
+        "avatar": "img/avatar.jpg"
+    },
+    "socialLinks": [
+        {
+            "url": "https://t.me/fyzedev",
+            "icon": "fab fa-telegram",
+            "text": "Telegram",
+            "isDiv": false
+        },
+        {
+            "url": "https://www.youtube.com/@fyzedev1000-7",
+            "icon": "fab fa-youtube",
+            "text": "YouTube",
+            "isDiv": false
+        },
+        {
+            "id": "contactBtn",
+            "icon": "fas fa-paper-plane",
+            "text": "Связаться",
+            "isDiv": true
+        }
+    ],
+    "contactMessage": "📱 Нажми на Telegram, там можно связаться через канал",
+    "stats": [
+        { "number": "50+", "label": "Проектов" },
+        { "number": "30+", "label": "Клиентов" },
+        { "number": "99%", "label": "Довольных" },
+        { "number": "24/7", "label": "Поддержка" }
+    ],
+    "skills": [
+        {
+            "icon": "<i class='fab fa-js'></i> <i class='fab fa-react' style='margin-left: 6px;'></i>",
+            "title": "Web Design & Development",
+            "description": "Создание сайтов с интерактивными анимациями, адаптивным дизайном, JavaScript-фреймворками и современными веб-стандартами.",
+            "technologies": ["React", "GSAP", "Three.js"]
+        },
+        {
+            "icon": "<i class='fas fa-pen-fancy'></i>",
+            "title": "UX/UI Design",
+            "description": "Проектирование интерфейсов с фокусом на удобство, визуальную привлекательность и пользовательский опыт. Figma, прототипирование.",
+            "technologies": ["Figma", "Адаптив", "Анимация UI"]
+        },
+        {
+            "icon": "<i class='fab fa-python'></i>",
+            "title": "Python Development",
+            "description": "Разработка Telegram ботов на aiogram, работа с JSON, SQLite, API, системы логирования и создание автоматизированных решений.",
+            "technologies": ["Aiogram", "Docker", "REST API"]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Telegram Bot Platform",
+            "description": "Мощная платформа для создания и управления Telegram ботами с админ-панелью",
+            "technologies": ["Python", "Aiogram", "PostgreSQL"],
+            "image": "img/project1.jpg"
+        },
+        {
+            "title": "E-commerce Website",
+            "description": "Современный интернет-магазин с корзиной, оплатой и личным кабинетом",
+            "technologies": ["React", "Node.js", "MongoDB"],
+            "image": "img/project2.jpg"
+        },
+        {
+            "title": "Analytics Dashboard",
+            "description": "Интерактивная панель аналитики с графиками и отчётами в реальном времени",
+            "technologies": ["Vue.js", "D3.js", "Firebase"],
+            "image": "img/project3.jpg"
+        }
+    ],
+    "extraTechnologies": [
+        { "icon": "fas fa-robot", "text": "Telegram-экосистемы" },
+        { "icon": "fas fa-chart-line", "text": "Дашборды & аналитика" },
+        { "icon": "fas fa-shield-alt", "text": "Безопасность и авторизация" },
+        { "icon": "fas fa-cloud", "text": "CI/CD, деплой" }
+    ],
+    "footer": {
+        "text": "© 2025 FyzeDev — создаю продукты с вниманием к деталям и анимациям.",
+        "links": [
+            { "url": "https://t.me/fyzedev", "text": "Telegram" },
+            { "url": "https://www.youtube.com/@fyzedev1000-7", "text": "YouTube" }
+        ]
+    }
+}

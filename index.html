@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>FyzeDev | Разработчик и создатель контента</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="FyzeDev - профессиональный разработчик Telegram ботов, сайтов и автоматизации">
+    <meta name="author" content="FyzeDev">
+    
+    <!-- Open Graph для соцсетей -->
+    <meta property="og:title" content="FyzeDev | Разработчик и создатель контента">
+    <meta property="og:description" content="Создание Telegram ботов, сайтов и автоматизации">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+    <div class="loader"></div>
+</div>
+
+<!-- Фоновые анимации -->
+<div class="animated-bg"></div>
+<div class="gradient-orb orb1"></div>
+<div class="gradient-orb orb2"></div>
+<div class="gradient-orb orb3"></div>
+<canvas id="particleCanvas"></canvas>
+
+<!-- Кнопка переключения темы -->
+<div class="theme-toggle" id="themeToggle">
+    <i class="fas fa-sun"></i> 
+    <span>Светлая тема</span>
+</div>
+
+<main class="container">
+    <!-- Hero секция -->
+    <div class="hero" id="heroSection">
+        <div class="avatar-container" data-aos="fade-down">
+            <img src="img/avatar.jpg" alt="FyzeDev" class="avatar" id="avatarImg" onerror="this.src='https://via.placeholder.com/120x120?text=FyzeDev'">
+        </div>
+        
+        <div class="badge" data-aos="fade-right">
+            <i class="fas fa-cube"></i> <span id="badgeText">Загрузка...</span>
+        </div>
+        
+        <div class="code-block" data-aos="fade-left" id="codeBlock">
+            <span style="color:#c792ea;">fyzedev</span><span style="color:#ff5874;">()</span> { <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#82aaff;">printf</span><span style="color:#f6f8fa;">(</span><span style="color:#c3e88d;" id="codeText">"загрузка..."</span><span style="color:#f6f8fa;">);</span><br>
+            }
+        </div>
+        
+        <h1 data-aos="fade-up" id="siteTitle">FyzeDev</h1>
+        
+        <div class="subhead" data-aos="fade-up" data-aos-delay="100" id="subheadText">
+            <i class="fas fa-laptop-code"></i> <span>Загрузка...</span>
+        </div>
+        
+        <div class="description" data-aos="fade-up" data-aos-delay="200" id="descriptionText">
+            Загрузка контента...
+        </div>
+        
+        <div class="social-grid" data-aos="fade-up" data-aos-delay="300" id="socialLinks">
+            <!-- Социальные ссылки загружаются из JSON -->
+        </div>
+    </div>
+
+    <!-- Статистика -->
+    <div class="stats-section" data-aos="fade-up" id="statsSection">
+        <div class="stats-grid" id="statsGrid">
+            <!-- Статистика загружается из JSON -->
+        </div>
+    </div>
+
+    <!-- Секция навыков -->
+    <div class="skills-section" id="skillsSection">
+        <div class="section-title" data-aos="fade-right">
+            <i class="fas fa-chart-line"></i> 
+            <span>Ключевые навыки</span>
+        </div>
+        <div class="skills-grid" id="skillsGrid">
+            <!-- Карточки навыков загружаются из JSON -->
+        </div>
+    </div>
+
+    <!-- Портфолио/Проекты -->
+    <div class="projects-section" id="projectsSection">
+        <div class="section-title" data-aos="fade-right">
+            <i class="fas fa-folder-open"></i> 
+            <span>Мои проекты</span>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Проекты загружаются из JSON -->
+        </div>
+    </div>
+
+    <!-- Дополнительная секция -->
+    <div class="extra-section" id="extraSection">
+        <div class="section-title" data-aos="fade-right">
+            <i class="fas fa-rocket"></i> 
+            <span>Что ещё я создаю</span>
+        </div>
+        <div class="tech-grid" id="techGrid">
+            <!-- Технологии загружаются из JSON -->
+        </div>
+    </div>
+
+    <footer data-aos="fade-up" id="footer">
+        <p id="footerText">© 2025 FyzeDev — загрузка...</p>
+        <div class="footer-links" id="footerLinks">
+            <!-- Ссылки футера -->
+        </div>
+    </footer>
+</main>
+
+<!-- JavaScript -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
